@@ -19,6 +19,7 @@ buttons = driver.find_elements_by_xpath("//div[@class='product-action']/button")
 
 for button in buttons:
     button.click()
+    #button.click()
 
 driver.find_element_by_css_selector("img[alt='Cart']").click()
 driver.find_element_by_xpath("//button[text()='PROCEED TO CHECKOUT']").click()

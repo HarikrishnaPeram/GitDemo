@@ -11,6 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 list = []
 list2 = []
 driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
+#kk
 
 driver.get("https://rahulshettyacademy.com/seleniumPractise/")
 driver.find_element_by_css_selector("input.search-keyword").send_keys("ber")
